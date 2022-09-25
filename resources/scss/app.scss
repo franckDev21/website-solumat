@@ -106,7 +106,15 @@ footer{
 }
 
 
-.devis{
+div.devis{
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.518), rgba(0, 0, 0, 0.578)), url('../../public/img/piscine-coque-arrondie2.jpg');
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+.hero{
   background-image:linear-gradient(to right, rgba(0, 0, 0, 0.518), rgba(0, 0, 0, 0.578)), url('../../public/img/piscine-coque-arrondie2.jpg');
   background-position: center;
     background-size: cover;

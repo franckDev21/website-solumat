@@ -15,7 +15,7 @@
         @vite(['resources/scss/app.scss', 'resources/js/app.js'])
         
     </head>
-    <body class="bg-gray-100 min-h-screen flex flex-col">
+    <body class="bg-gray-100 min-h-screen flex flex-col relative">
       
       <!-- Header -->
       @include('partials.header')
@@ -28,6 +28,8 @@
       <!-- Footer -->
       @include('partials.footer')
 
+      <x-whatsapp />
+      
       <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
     </body>
 </html>

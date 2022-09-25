@@ -22,15 +22,15 @@
 
     <nav class="flex items-center">
       <div class="flex space-x-6 xl:text-lg font-semibold text-tersiaire">
-        <a href="#" class="nav-link active">Accueil</a>
-        <a href="#" class="inline-block nav-link">Services</a>
-        <a href="#" class="inline-block nav-link">Nos Réalisations</a>
-        <a href="#" class="inline-block nav-link">Boutiques</a>
-        <a href="#" class="inline-block nav-link">Contact</a>
+        <a href="{{ route('home') }}" class="nav-link {{ request()->routeIs('home') ? 'active':'' }}">Accueil</a>
+        <a href="{{ route('services') }}" class="inline-block nav-link  {{ request()->routeIs('services') ? 'active':'' }}">Services</a>
+        <a href="{{ route('realisations') }}" class="inline-block nav-link {{ request()->routeIs('realisations') ? 'active':'' }}">Nos Réalisations</a>
+        <a href="{{ route('boutiques') }}" class="inline-block nav-link {{ request()->routeIs('boutiques') ? 'active':'' }}">Boutiques</a>
+        <a href="{{ route('contact') }}" class="inline-block nav-link {{ request()->routeIs('contact') ? 'active':'' }}">Contact</a>
       </div>
       <div class="ml-4 xl:text-lg">
         <a href="#" class=" nav-btn bg-opacity-80 bg-secondary text-sm text-white font-semibold"><span>Demander un devis</span> <i class="fa-solid ml-2 fa-arrow-right-long devis"></i></a>
-        <a href="https://wa.me/237664533023" class="nav-btn border-2 font-semibold text-sm "><i class="fa-brands fa-whatsapp mr-2 text-green-600"></i> Whatsapp</a>
+        <a href="#" class="nav-btn border-2 font-semibold text-sm ">Se connecter</a>
       </div>
     </nav>
   </div>
