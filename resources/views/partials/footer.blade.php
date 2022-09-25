@@ -1,5 +1,5 @@
 <footer class="mt-auto bg-white bg-right shadow-md" >
-  <div class="container grid grid-cols-4 gap-8 py-16">
+  <div class="container grid grid-cols-4 gap-8 pb-16 pt-24">
     <div>
       <x-logo/>
       <p class="mt-5 text-opacity-80">
@@ -12,9 +12,10 @@
       <h2 class="text-2xl font-bold mb-5">Liens utiles</h2>
       <div class="flex flex-col space-y-3">
         <a href="#" class="text-secondary hover:text-primary transition">Accueil</a>
-        <a href="#" class="text-secondary hover:text-primary transition">A Propos</a>
+        {{-- <a href="#" class="text-secondary hover:text-primary transition">A Propos</a> --}}
         <a href="#" class="text-secondary hover:text-primary transition">Services</a>
-        <a href="#" class="text-secondary hover:text-primary transition">Nos Réalisation</a>
+        <a href="#" class="text-secondary hover:text-primary transition">Nos Réalisations</a>
+        <a href="#" class="text-secondary hover:text-primary transition">Boutique</a>
         <a href="#" class="text-secondary hover:text-primary transition">Obtenir un devis</a>
         <a href="#" class="text-secondary hover:text-primary transition">Contact</a>
       </div>
